@@ -5,7 +5,8 @@ README.md:
 	echo "**Date when make was run**" >> README.md
 	echo "" >> README.md 
 	date >> README.md
-	ecjp "" >> README.md
+	echo "" >> README.md
 	echo "**Number of lines of code in guessinggame.sh**" >> README.md
 	echo "" >> README.md
 	cat guessinggame.sh | wc -l | bc >> README.md
+	echo "" >> README.md
